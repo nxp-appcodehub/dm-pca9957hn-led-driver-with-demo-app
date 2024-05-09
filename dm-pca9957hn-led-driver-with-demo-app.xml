@@ -1,0 +1,27 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-pca9957hn-led-driver-with-demo-app" type="demo" format="cmsis" versionSchema="1.0.0" name="pca9957hn led driver with demo app">
+    <display_title>
+        PCA9957HN led driver with demo app running on FRDM-MCXN947 and FRDM-MCXA153
+    </display_title>
+    <overview>
+        <![CDATA[A graphical interface allows the user to easily explore the different functions of the driver to use the LED controller features for color mixing, blinking and dimming LEDs.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXN947"></hw>
+        <hw id="FRDM-MCXA153"></hw>
+    </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="nxp_pca9957hn_ard"></ebh>
+    </nxp_ebh_hw>
+    <peripherals>
+        <peripheral name="spi"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="ui"></category>
+    </categories>
+</data:item>
